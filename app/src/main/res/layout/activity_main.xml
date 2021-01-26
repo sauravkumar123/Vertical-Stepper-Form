@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/viewpager"
+        android:layout_above="@+id/dotslayout"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/dotslayout"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:id="@+id/nextbutton"
+        android:backgroundTint="#E75480"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:layout_marginBottom="40dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip"
+        android:textSize="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+
+
+
+        android:id="@+id/skip" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrowback"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+</RelativeLayout>

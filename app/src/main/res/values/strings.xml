@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">VisitorBook</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One Time Password on this mobile number</string>
+    <string name="_91">+91</string>
+    <string name="verify_proceed"><![CDATA[VERIFY & PROCEED]]></string>
+
+
+    <string name="app_name2" tools:ignore="DuplicateDefinition">Vertical Stepper Form Example</string>
+    <string name="new_alarm_added">New User added successfully</string>
+    <string name="error_alarm_name_min_characters">At least %1$d character(s)</string>
+    <string name="error_alarm_name_min_characters1">Enter Valid Phone Number</string>
+    <string name="error_alarm_days_min_days">At least 1 day must be selected</string>
+    <string name="main_activity_alarm_added_info">Busyatri</string>
+    <string name="main_activity_explanation">Click the button to set up a new  Bus</string>
+    <string name="main_activity_explanation_disclaimer">.</string>
+    <string name="form_hint_title">Travel Company name (required)</string>
+    <string name="form_hint_description">From Location (required)</string>
+    <string name="form_discard_question">Discard?</string>
+    <string name="form_info_will_be_lost">All the information about this new User will be lost</string>
+    <string name="form_sending_data_message">Adding new User…</string>
+    <string name="form_discard_cancel">Cancel</string>
+    <string name="form_discard">Discard</string>
+    <string name="form_empty_field">(Empty)</string>
+    <string-array name="steps_titles">
+        <item>Traveller Agency</item>
+        <item>From(Starting Destination)</item>
+        <item>To(Final Destination)</item>
+        <item>Drivers Name</item>
+        <item>Drivers Number</item>
+        <item>Conductor Name</item>
+        <item>Bus Number</item>
+        <item>Bus Type</item>
+    </string-array>
+
+    <string-array name="week_days">
+        <item>AC</item>
+        <item>SLEEPER</item>
+        <item>NORMAL</item>
+
+    </string-array>
+
+</resources>
